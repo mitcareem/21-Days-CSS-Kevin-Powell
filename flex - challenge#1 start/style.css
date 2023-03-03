@@ -46,18 +46,18 @@ h1 {
   display: flex;
 
   /* can't use yet */
-  gap: 100px;
+  /* gap: 100px; */
   padding: 100px 0;
 }
 
 .col {
   /* these are now flex items */
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.row > .col > h2 {
-  color: #87629a;
+.col + .col {
+  margin-left: 30px;
 }
 
 .hero {
@@ -90,14 +90,18 @@ h1 {
   opacity: 0.75;
 }
 
-footer {
-  display: flex;
-  background-color: #136c72;
+
+
+.three--col__title {
+  color: purple;
 }
 
-.footer--content {
-  display: flex;
-  padding: 100px 0;
+.two--col {
+  background-color: #135c72;
   color: white;
-  gap: 100px;
+  text-align: center;
+}
+
+.three-col {
+  text-align: center;
 }

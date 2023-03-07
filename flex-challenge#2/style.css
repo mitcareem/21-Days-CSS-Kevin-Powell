@@ -65,7 +65,7 @@ h1 {
 
 .hero__img {
     width: 32%;
-    align-self: stretch;
+    align-self: flex-start;
 }
 
 .hero p {

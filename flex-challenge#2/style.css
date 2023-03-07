@@ -22,9 +22,7 @@ body {
     font-size: 1.3rem;
 }
 
-img {
-    max-width: 100%;
-}
+
 
 h1 {
     font-size: 3rem;
@@ -67,7 +65,7 @@ h1 {
 
 .hero__img {
     width: 32%;
-    align-self: flex-start;
+    align-self: stretch;
 }
 
 .hero p {
@@ -88,4 +86,26 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+
+.primary-content {
+    width: 62%
+}
+
+
+.sidebar {
+    width: 32%;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    background-color: #136C72;
+}
+
+.main {
+    margin-top: 3em;
+}
+
+.section-title {
+    color: #87629A;
 }

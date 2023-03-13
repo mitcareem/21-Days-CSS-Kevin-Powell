@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+}
+
+
+.hero {
+    min-height: 660px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3EED9;
+    color: #824936;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: .3em;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.accent-text {
+    letter-spacing: 1ch;
+}
